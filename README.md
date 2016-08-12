@@ -1,7 +1,7 @@
 # VideoBox
 
 
-### [#EN](http://) | [#PT-BR](http://)
+### [#EN](https://github.com/tedktedk/videobox/blob/master/README.md#documentation) | [#PT-BR](https://github.com/tedktedk/videobox/blob/master/README.md#documentação-pt-br)
 
 Plugin created for [jQuery](https://jquery.com) to load videos from **YouTube** and **Vimeo**, using the URL.
 <br>
