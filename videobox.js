@@ -1,6 +1,6 @@
 ﻿/*
  * VideoBox
- * Example and Documentation: http://tedk.com.br/blog/
+ * Example and Documentation: https://github.com/tedktedk/videobox/blob/master/README.md
  *
  * Version: 1.0
  *
