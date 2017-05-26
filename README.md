@@ -8,7 +8,7 @@ Plugin created for [jQuery](https://jquery.com) to load videos from **YouTube** 
 
 ## Documentation<br>
 
-The method used is ***.videoBox()***.<br>
+The method used is **.videoBox()**.<br>
 Method:
 ```javascript
 $(".video-div").videoBox();
@@ -75,7 +75,7 @@ title			|
 <br><Br>
 ## Documentação PT-BR<br>
 
-O método a ser usado é o ***.videoBox()***.<br>
+O método a ser usado é o **.videoBox()**.<br>
 Chamada do Método:
 ```javascript
 $(".video-div").videoBox();
