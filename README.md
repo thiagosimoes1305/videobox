@@ -1,5 +1,5 @@
 # VideoBox
-[![004](https://img.shields.io/badge/jQuery-2+.svg)](https://code.jquery.com/jquery-2.2.4.min.js)
+[![004](https://img.shields.io/badge/jQuery-2.x-blue.svg)](https://code.jquery.com/jquery-2.2.4.min.js)
 
 ### [#EN](https://github.com/tedktedk/videobox/blob/master/README.md#documentation) | [#PT-BR](https://github.com/tedktedk/videobox/blob/master/README.md#documentação-pt-br)
 
