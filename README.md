@@ -1,6 +1,8 @@
 # VideoBox
 [![004](https://img.shields.io/badge/jQuery-2.x-blue.svg)](https://code.jquery.com/jquery-2.2.4.min.js)
 
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TXW3J3DVNM294" target="_blank"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"></a>
+
 ### [#EN](https://github.com/tedktedk/videobox/blob/master/README.md#documentation) | [#PT-BR](https://github.com/tedktedk/videobox/blob/master/README.md#documentação-pt-br)
 
 Plugin created for [jQuery](https://jquery.com) to load videos from **YouTube** and **Vimeo**, using the URL.
