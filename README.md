@@ -114,7 +114,7 @@ $(".video-div").videoBox({
 	entry_id: "0_uka1msg4"
 });
 ```
-Example: [https://jsfiddle.net/ted_k/uypnkcjh/4/](https://jsfiddle.net/ted_k/uypnkcjh/4/)
+Example: [https://jsfiddle.net/ted_k/uypnkcjh/7/](https://jsfiddle.net/ted_k/uypnkcjh/7/)
 
 Parameters     	| Default Value
 ----------------|---------------
