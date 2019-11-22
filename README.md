@@ -1,7 +1,7 @@
 # VideoBox
 [![004](https://img.shields.io/badge/jQuery-2.x-blue.svg)](https://code.jquery.com/jquery-2.2.4.min.js)
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TXW3J3DVNM294" target="_blank"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"></a>
+Donate: <a href="https://pag.ae/bgwYhxd"><img src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/164x37-doar-assina.gif" border="0" /></a>
 
 ### [#EN](https://github.com/tedktedk/videobox/blob/master/README.md#documentation) | [#PT-BR](https://github.com/tedktedk/videobox/blob/master/README.md#documentação-pt-br)
 
