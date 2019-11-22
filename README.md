@@ -1,11 +1,9 @@
 # VideoBox
 [![004](https://img.shields.io/badge/jQuery-2.x-blue.svg)](https://code.jquery.com/jquery-2.2.4.min.js)
 
-Donate: <a href="https://pag.ae/bgwYhxd"><img src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/164x37-doar-assina.gif" border="0" /></a>
+<a href="https://pag.ae/bgwYhxd"><img src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/164x37-doar-assina.gif" border="0" /></a>
 
-### [#EN](https://github.com/tedktedk/videobox/blob/master/README.md#documentation) | [#PT-BR](https://github.com/tedktedk/videobox/blob/master/README.md#documentação-pt-br)
-
-Plugin created for [jQuery](https://jquery.com) to load videos from **YouTube** and **Vimeo**, using the URL.
+Plugin created for [jQuery](https://jquery.com) to load videos from **YouTube**, **Vimeo** and **Kaltura** using the URL.
 <br>
 
 ## Documentation<br>
@@ -37,6 +35,23 @@ $(".video-div").videoBox({
 	controls: 0
 });
 ```
+
+Example: [https://jsfiddle.net/ted_k/uypnkcjh/2/](https://jsfiddle.net/ted_k/uypnkcjh/2/)
+
+Parameters     	| Default Value
+----------------|---------------
+width 			| 640
+height    		| 360
+loop     		| false
+autoplay 		| false
+byline			| true
+color			| "00adef"
+maxheight		| 
+maxwidth		|
+portrait		| true
+title			|
+
+<br>
 ----------
 <br>
 
@@ -59,6 +74,7 @@ $(".video-div").videoBox({
 	autoplay: true
 });
 ```
+Example: [https://jsfiddle.net/ted_k/uypnkcjh/4/](https://jsfiddle.net/ted_k/uypnkcjh/4/)
 
 Parameters     	| Default Value
 ----------------|---------------
@@ -73,69 +89,43 @@ maxwidth		|
 portrait		| true
 title			|
 
-
-<br><Br>
-## Documentação PT-BR<br>
-
-O método a ser usado é o **.videoBox()**.<br>
-Chamada do Método:
-```javascript
-$(".video-div").videoBox();
-```
-
 <br>
-
-## Usando YouTube: 
-
-Adicione o atributo no HTML *data-youtube* com a URL do vídeo.<br>
-HTML da página:
-
-```html
-<div class="video-div" data-youtube="https://www.youtube.com/watch?v=lXtvSyj87TU"></div>
-```
-
-<br>
-
-Adicionando parâmetros para o método:<br>
-Os parâmetros são baseadas na [YouTube API](https://developers.google.com/youtube/player_parameters?hl=pt-br#Parameters), mas foram adicionados os parâmetros de *width* e *height*.
-
-```javascript
-$(".video-div").videoBox({
-	controls: 0
-});
-```
 ----------
 <br>
 
-## Usando Vimeo: 
+## Kaltura: 
 
-Adicione o atributo no HTML *data-vimeo* com a URL do vídeo
-HTML da página:
+Add the attribute in HTML *data-kaltura* kaltura with video **partner_id**<Br>
+HTML page:
 
 ```html
-<div class="video-div" data-vimeo="https://vimeo.com/77696897"></div>
+<div class="video-div" data-kaltura="243342"></div>
 ```
 
 <br>
 
-Adicionando parâmetros para o método:<br>
-Os parâmetros estão na tabela abaixo:
+Adding parameters to the method:<br>
+The parameters are in the table below:
 
 ```javascript
 $(".video-div").videoBox({
-	autoplay: true
+	partner_id: "243342",
+	uiconf_id: "12905712",
+	entry_id: "0_uka1msg4"
 });
 ```
+Example: [https://jsfiddle.net/ted_k/uypnkcjh/4/](https://jsfiddle.net/ted_k/uypnkcjh/4/)
 
-Parâmetro     	| Valor Padrão
+Parameters     	| Default Value
 ----------------|---------------
+partner_id 		| 243342
+uiconf_id    	| 12905712
+entry_id     	| 0_uka1msg4
 width 			| 640
-height    		| 360
-loop     		| false
-autoplay 		| false
-byline			| true
-color			| "00adef"
-maxheight		| 
-maxwidth		|
-portrait		| true
-title			|
+height			| 360
+switchOnResize	| false
+simpleFormat	| true
+displayMode		| "sizebitrate" (sizebitrate | bitrate size)
+inlineScript	| false
+hideSource		| null
+autoPlay		| false
