@@ -74,7 +74,7 @@
 					tag_v.id = "VIDEOBOX_createTag_y";
 					if (!document.getElementById("VIDEOBOX_createTag_y")){
 						tag_v.src = "https://www.youtube.com/iframe_api";
-						firstScriptTag.parentNode.insertBefore(tag_y, firstScriptTag);
+						firstScriptTag.parentNode.insertBefore(tag_v, firstScriptTag);
 					}
 				}
 				else if (_this.attr("data-vimeo")){
